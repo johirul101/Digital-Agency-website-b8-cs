@@ -63,6 +63,7 @@
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    text-wrap: nowrap;
 }
 .bg-primary{
     background-color: red;
@@ -152,3 +153,41 @@
 }
 /* service section style up here */
 /* ============================================================================================== */
+/* appoinment styles down here  */
+.service-section{
+    position: relative;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    width: 80vw;
+    height: 15vh;
+    margin: 0 auto;
+    background-color: red;
+    color: wheat;
+    padding: 20px ;
+
+    border-radius: 10px;
+    position: absolute;
+    bottom: -1vh;
+    right: 50vw ;
+    transform: translate(50%, 50%);
+    
+}
+
+.phone-call{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 4px solid white;
+    padding-right: 20px;
+
+
+}
+.appoinment-desc{
+    font-size: 18px;
+}
+/* appoinment styles up here  */
