@@ -228,3 +228,46 @@
     font-weight: lighter;
 }
 /* blogs and news styles up here */
+/* ============================================================================================= */
+/* footer styles down here */
+.footer-section{
+    width: 100vw;
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    
+    height: 70%;
+    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin: 5px 0px;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-container div{
+    /* border: 2px solid white; */
+    width: 20vw;
+}
+
+.footer-section div:last-child{
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.footer-section div:last-child p{
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+
+/* footer styles up here */
