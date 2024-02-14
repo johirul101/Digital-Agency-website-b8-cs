@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav-container{
+    background-color: gray;
+    padding: 20px 0px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus{
+    list-style: none;
+
+    display: flex;
+    gap: 1vw;
+}
+.menus li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.menus li a:hover{
+    text-decoration: underline;
+}
+/* ============================================================================== */
+

@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner-container{
+    border: 2px solid red;
+    display: flex;
+    /* justify-content: center;
+    gap: 100px; */
+    justify-content: space-around;
+    
+    height: 50vh;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
