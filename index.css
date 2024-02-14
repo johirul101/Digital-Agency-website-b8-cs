@@ -28,3 +28,45 @@
 }
 /* ============================================================================== */
 
+/* banner styles down here  */
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.384));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-info{
+    width: 50vw;
+    text-align: center;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+/* ============================================================================================== */
+/* banner styles up here */
